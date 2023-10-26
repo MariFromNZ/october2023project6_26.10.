@@ -1,0 +1,33 @@
+.btn{
+    background-color: rgb(214, 129, 25);
+}
+
+.btn:hover {
+    background-color: rgb(146, 95, 27);
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+nav.navigation a {
+    text-transform: capitalize;
+    transition-property: color;
+    /* transition-duration: 0.4s; */
+
+    /* recomended between 400ms and 600ms */
+    transition-duration: 400ms;
+
+    animation-timing-function: ease-out;
+
+    /*  shorter */
+    /* transition: color 400ms; */
+
+    /* transition-property: color, background;
+    transition-duration: 400ms; */
+    
+    /* transition: color 500ms, backgound-color 500ms; */
+}
+
+nav.navigation a:hover {
+    text-transform: capitalize;
+    color: rgb(240, 56, 24);
+}
